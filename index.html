@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Gatinha ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Tela de Loading/Animação -->
+    <div id="loading-screen">
+        <div class="heart-container">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        <h2 class="loading-text">Para você, meu amor...</h2>
+    </div>
+
+    <!-- Tela Principal -->
+    <div id="main-content" style="display: none;">
+        <div class="container">
+            <!-- Player de Música -->
+            <div class="music-player">
+                <div class="album-cover">
+                    <img src="album-cover.jpg" alt="Capa do Álbum" id="album-image">
+                </div>
+                <div class="music-info">
+                    <h3 class="song-title" id="song-title">Chest Pain (I Love)</h3>
+                    <p class="artist-name" id="artist-name">Malcolm Todd</p>
+                </div>
+                <button class="play-pause-btn" id="playPauseBtn">
+    <span class="pause-icon">❚❚</span>
+    <span class="play-icon" style="display: none;">▶</span>
+</button>
+
+            </div>
+
+            <!-- Slider de Fotos -->
+            <div class="photo-slider">
+                <div class="slider-container" id="sliderContainer">
+                    <!-- As fotos sao adicionadas via JavaScript -->
+                </div>
+            </div>
+
+            <!-- Contador de Amor -->
+            <div class="love-counter">
+                <h2 id="loveCounter">Carregando...</h2>
+            </div>
+
+            <!-- Linha Separadora -->
+            <hr class="separator">
+
+            <!-- Declaração de Amor -->
+            <div class="love-declaration">
+                <p>
+                    Minha querida,<br><br>
+                    
+                    Cada segundo ao seu lado é um presente que a vida me deu. 
+                    Desde o primeiro dia em que nos conhecemos, meu mundo ganhou cores 
+                    que eu nem sabia que existiam.<br><br>
+                    
+                    Você é minha inspiração diária, minha parceira de aventuras, 
+                    minha melhor amiga e o amor da minha vida. Com você, descobri 
+                    que o amor verdadeiro não é apenas um sentimento, mas uma 
+                    escolha que faço todos os dias.<br><br>
+                    
+                    Obrigado por ser exatamente quem você é, por me amar com 
+                    todos os meus defeitos e por construir comigo os nossos 
+                    sonhos mais bonitos.<br><br>
+                    
+                    Te amo hoje, te amarei amanhã e te amarei para sempre.
+                    <br><br>
+                    
+                    <strong>Com todo meu amor,<br>
+                    Joaquim G ❤️</strong>
+                </p>
+            </div>
+        </div>
+
+        <!-- Áudio -->
+        <audio id="backgroundMusic" loop>
+            <source src="musica.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
